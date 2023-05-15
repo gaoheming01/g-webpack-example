@@ -17,5 +17,5 @@ function f1 () {
 
 
 f1().run((err, stat) => {
-  // console.log(JSON.stringify(stat.toJson()))
+  console.log(JSON.stringify(stat.toJson()))
 })
